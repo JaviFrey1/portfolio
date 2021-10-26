@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesCointainer = styled.div`
-    height: 800px;
+    height: 720px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,35 @@ export const ServicesWrapper = styled.div`
         padding: 0 20px;
     }
 `;
-
+export const P = styled.span`
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    &:after{
+        content: "";
+        display: block;
+        width: 0;
+        height: 1px;
+        background-color: #58bae6;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transition: all .5s ease-in-out;
+        color: #58bae6;
+        cursor: pointer;
+      }
+      &:hover:after {
+        color: #58bae6;
+        width: 100%;
+        left: 0;
+        cursor: pointer;
+      }
+      &:hover {
+        transition:all .5s ease-in-out;
+        color: #58bae6;
+        
+      }
+`;
 export const ServicesCard = styled.div`
     background: #fff;
     display:flex;

@@ -7,14 +7,15 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'About',
-    headline: `I'm Javier Frey`,
-    description: `Welcome to my portfolio`,
+    topLine: 'About me',
+    headline: `
+        I'm Javier Gomez Frey
+    `,
     buttonLabel: 'Download resume',
     imgStart: false,
     img: education,
     alt: 'Education svg',
-    dark:false,
+    dark: false,
     primary: false,
     darkText: true,
 }
@@ -31,7 +32,7 @@ export const homeObjThree = {
     imgStart: true,
     img: seleting,
     alt: 'contact',
-    dark:false,
+    dark: false,
     primary: false,
     darkText: true,
 }

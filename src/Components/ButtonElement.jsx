@@ -19,6 +19,7 @@ export const Button = styled.button`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({ primary }) => primary ? '#58bae6' : '#fff'};
-        color: ${({ dark }) => dark ? '#fff' : '#58bae6'};  
+        color: ${({ dark }) => dark ? '#fff' : '#58bae6'};
+        border: 2px solid ${({ primary }) => primary ? '' : '#58bae6'};
     }
 `;

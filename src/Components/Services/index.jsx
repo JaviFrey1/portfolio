@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServicesCointainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements';
+import { ServicesCointainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP, P } from './ServicesElements';
 import rick from '../../images/rik.svg';
 import tuki from '../../images/tuki.svg';
 import pk from '../../images/pk.svg';
@@ -12,13 +12,15 @@ const Services = () => {
         window.location.href = 'https://pokemon-flame.vercel.app/';
     }
     function redirectRick() {
-        window.location.href = 'https://github.com/JaviFrey1/rick-morty';
+        window.location.href = 'https://rick-morty-pearl.vercel.app/';
     }
-
+    function redirectGit() {
+        window.location.href = "https://github.com/JaviFrey1";
+    }
 
     return (
         <ServicesCointainer id="projects">
-            <ServicesH1>My Projects</ServicesH1>
+            <ServicesH1>My Projects  <P onClick={redirectGit}> - Link to my Github</P></ServicesH1>
             <ServicesWrapper>
                 <ServicesCard onClick={redirectRick}>
                     <ServicesIcon src={rick} alt=""/>

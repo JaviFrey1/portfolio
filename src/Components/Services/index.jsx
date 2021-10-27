@@ -6,16 +6,16 @@ import pk from '../../images/pk.svg';
 
 const Services = () => {
     function redirectTo() {
-        window.location.href = 'https://github.com/JaviFrey1/ITicket';
+        window.open('https://github.com/JaviFrey1/ITicket', "_blank");
     }
     function redirectPoke() {
-        window.location.href = 'https://pokemon-flame.vercel.app/';
+        window.open('https://pokemon-flame.vercel.app/', "_blank");
     }
     function redirectRick() {
-        window.location.href = 'https://rick-morty-pearl.vercel.app/';
+        window.open('https://rick-morty-pearl.vercel.app/', "_blank");
     }
     function redirectGit() {
-        window.location.href = "https://github.com/JaviFrey1";
+        window.open("https://github.com/JaviFrey1", "_blank");
     }
 
     return (

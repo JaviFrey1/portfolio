@@ -1,6 +1,5 @@
-import education from '../../images/education.svg';
+import education from '../../images/undra.svg';
 
-import seleting from '../../images/seleting.svg';
 
 export const homeObjOne = {
     id: 'about',
@@ -20,19 +19,3 @@ export const homeObjOne = {
     darkText: true,
 }
 
-export const homeObjThree = {
-    id: 'contact',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Contact',
-    headline: `I'm Javier Frey`,
-    description: `Welcome to my portfolio`,
-    buttonLabel: 'Download resume',
-    imgStart: true,
-    img: seleting,
-    alt: 'contact',
-    dark: false,
-    primary: false,
-    darkText: true,
-}

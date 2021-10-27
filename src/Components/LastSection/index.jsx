@@ -31,7 +31,7 @@ export default function Contact() {
             <div className={s.form}>
               <form action="" onSubmit={sendEmail} className={s.contForm}>
                 <div className={s.formWord}>
-                  <h2 className={s.h2}>Stay in touch!</h2>
+                  <h2 className={s.h2}>KEEP IN TOUCH</h2>
 
                   <input type="text" name="from_name" required placeholder='Your name...' />
                   <br />

@@ -1,12 +1,12 @@
 import React from 'react';
-import { InfoContainer, InfoWraper, InfoRow, Column1, Column2, TextWraper, TopLine, Heading, SubTitle, BtnWrap, ImgWrap, Img } from './InfoElements';
+import { InfoContainer, InfoWraper, InfoRow, Column1, Column2, TextWraper, TopLine, Span, SubTitle, BtnWrap, ImgWrap, Img, Big, Little } from './InfoElements';
 import { Button } from '../ButtonElement';
 
 const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2 }) => {
     function resume() {
-        window.open('https://drive.google.com/file/d/1baeP6QsaSCKhcMue-szP4_QyZziByBI9/view?usp=sharing', "_blank");
+        window.open('https://drive.google.com/file/d/1iXnIlr66rvtLFaFg0UUbQPsMnKVHk5-p/view?usp=sharing', "_blank");
     }
-    
+
 
     return (
         <>
@@ -16,12 +16,16 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                         <Column1>
                             <TextWraper>
                                 <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
                                 <SubTitle darkText={darkText}>
-                                    <h4>I'm known for being a doer, pragmatical and team player.</h4>
-                                    <h4>I'm a quick learner, proactive and I love to improve my knowledge.</h4>
-                                    <p>Also I've studied managment at university which gave me the opportunity to work in differents teams and learn from it.</p>
-                                    <h3>I find myself looking for a job that challenges me every day!.</h3>
+                                    <Big>
+                                        I'm known for being a <Span>doer, pragmatical and team player.</Span>
+                                        <br/>I'm a quick learner, proactive and I love to improve my knowledge.
+                                    </Big>
+                                    <Little>
+                                        Also I've studied managment at university which gave me the opportunity 
+                                        to work in differents teams and learn from it.
+                                        I find myself looking for a job that challenges me every day!.
+                                    </Little>
                                 </SubTitle>
                                 <BtnWrap>
 

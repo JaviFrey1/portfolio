@@ -43,25 +43,32 @@ export const P = styled.span`
         display: block;
         width: 0;
         height: 1px;
-        background-color: #58bae6;
+        background-color: #ff6ef8 ;
         position: absolute;
         left: 50%;
         bottom: 0;
         transition: all .5s ease-in-out;
-        color: #58bae6;
+        color:  #ff6ef8 ;
         cursor: pointer;
       }
       &:hover:after {
-        color: #58bae6;
+        color:  #ff6ef8 ;
         width: 100%;
         left: 0;
         cursor: pointer;
       }
       &:hover {
         transition:all .5s ease-in-out;
-        color: #58bae6;
+        color:  #ff6ef8 ;
         
       }
+
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+    @meadia screen and (max-width: 480px) {
+        font-size: 12px;
+    }
 `;
 export const ServicesCard = styled.div`
     background: #fff;
@@ -131,4 +138,11 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
     text-align: center;
     font-size: 1rem;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
+    @meadia screen and (max-width: 480px) {
+        font-size: 10px;
+    }
 `;

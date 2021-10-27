@@ -65,7 +65,7 @@ export const SidebarLink = styled(LinkS)`
     transform: translateX(40%);
 
     &:hover {
-        color: #58bae6;
+        color: #e3547c;
         transition: 0.2 ease-in-out;
     }
 `;

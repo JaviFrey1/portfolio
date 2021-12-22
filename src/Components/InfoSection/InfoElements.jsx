@@ -13,13 +13,16 @@ export const InfoWraper = styled.div`
     display:grid;
     z-index:1;
     height: 860px;
-    width: 100%;
+    width: 80%;
     max-width: 1100px;
     margin-rigth: auto;
     margin-left: 20%;
     padding: 0 24px;
-    justify-content: center;
+    justify-content: center;  
+    
 `;
+
+
 
 export const InfoRow = styled.div`
     display: grid;

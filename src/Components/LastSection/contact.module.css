@@ -165,13 +165,14 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+
 }
 .h2::after{
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background-color:  #ff6ef8 ;
+  background: linear-gradient(90deg,#b52c31,#e3547c );
   position: absolute;
   left: 50%;
   bottom: 0;

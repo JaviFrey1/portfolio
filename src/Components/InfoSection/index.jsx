@@ -1,12 +1,14 @@
 import React from 'react';
 import { InfoContainer, InfoWraper, InfoRow, Column1, Column2, TextWraper, TopLine, Span, SubTitle, BtnWrap, ImgWrap, Img, Big, Little } from './InfoElements';
+import { animateScroll as scroll } from 'react-scroll';
 import { Button } from '../ButtonElement';
-
 const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2 }) => {
     function resume() {
         window.open('https://drive.google.com/file/d/1iXnIlr66rvtLFaFg0UUbQPsMnKVHk5-p/view?usp=sharing', "_blank");
     }
-
+    const toggleAbout = () => {
+        scroll.scrollTo(1600);
+    }
 
     return (
         <>

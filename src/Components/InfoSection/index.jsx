@@ -6,9 +6,9 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
     function resume() {
         window.open('https://drive.google.com/file/d/1iXnIlr66rvtLFaFg0UUbQPsMnKVHk5-p/view?usp=sharing', "_blank");
     }
-    const toggleAbout = () => {
-        scroll.scrollTo(1600);
-    }
+    // const toggleAbout = () => {
+    //     scroll.scrollTo(1600);
+    // }
 
     return (
         <>
